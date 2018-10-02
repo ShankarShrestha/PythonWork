@@ -1,8 +1,5 @@
-# shristi.py
-# PA1.py
 def main():
-    #file = input("Enter a filename: ")
-    file = 'test.txt'
+    file = input("Enter a filename: ")
     f = open(file, "r")
     lines = f.readlines()
 
